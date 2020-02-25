@@ -11,4 +11,4 @@ run extractor (currently short name defs only)
 python extractor.py
 ```
 
-extracted short name defs are used by [oneM2M short name finder] (https://github.com/IoTKETI/oneM2M_shortname_finder)
+extracted short name defs are used by [oneM2M short name finder](https://github.com/IoTKETI/oneM2M_shortname_finder)
