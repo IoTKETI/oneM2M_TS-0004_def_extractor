@@ -1,0 +1,4316 @@
+[
+    {
+        "category": "primitive parameter", 
+        "shortName": "op", 
+        "occursIn": "Request", 
+        "longName": "Operation"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "to", 
+        "occursIn": "Request, Response", 
+        "longName": "To"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "fr", 
+        "occursIn": "Request, Response", 
+        "longName": "From"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rqi", 
+        "occursIn": "Request, Response", 
+        "longName": "Request Identifier"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "ty", 
+        "occursIn": "Request", 
+        "longName": "Resource Type"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "", 
+        "occursIn": "", 
+        "longName": ""
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "pc", 
+        "occursIn": "Request, Response", 
+        "longName": "Content"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rids", 
+        "occursIn": "Request", 
+        "longName": "Role IDs"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "ot", 
+        "occursIn": "Request, Response", 
+        "longName": "Originating Timestamp"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rqet", 
+        "occursIn": "Request", 
+        "longName": "Request Expiration Timestamp"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rset", 
+        "occursIn": "Request, Response", 
+        "longName": "Result Expiration Timestamp"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "oet", 
+        "occursIn": "Request", 
+        "longName": "Operation Execution Time"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rt", 
+        "occursIn": "Request", 
+        "longName": "Response Type"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rp", 
+        "occursIn": "Request", 
+        "longName": "Result Persistence"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rcn", 
+        "occursIn": "Request", 
+        "longName": "Result Content"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "ec", 
+        "occursIn": "Request, Response", 
+        "longName": "Event Category"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "da", 
+        "occursIn": "Request", 
+        "longName": "Delivery Aggregation"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "gid", 
+        "occursIn": "Request", 
+        "longName": "Group Request Identifier"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "fc", 
+        "occursIn": "Request", 
+        "longName": "Filter Criteria"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "drt", 
+        "occursIn": "Request", 
+        "longName": "Desired Identifier Result Type"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rsc", 
+        "occursIn": "Response", 
+        "longName": "Response Status Code"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "tkns", 
+        "occursIn": "Request", 
+        "longName": "Tokens"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "tids", 
+        "occursIn": "Request", 
+        "longName": "Token IDs"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "tqi", 
+        "occursIn": "Request", 
+        "longName": "Token Request Indicator"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "ltids", 
+        "occursIn": "Request", 
+        "longName": "Local Token IDs"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "grtm", 
+        "occursIn": "Request", 
+        "longName": "Group Request Target Members"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "ati", 
+        "occursIn": "Response", 
+        "longName": "Assigned Token Identifiers"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "tqf", 
+        "occursIn": "Response", 
+        "longName": "Token Request Information"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "cnst", 
+        "occursIn": "Response", 
+        "longName": "Content Status"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "cnot", 
+        "occursIn": "Response", 
+        "longName": "Content Offset"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "asi", 
+        "occursIn": "Request", 
+        "longName": "Authorization Signature Indicator"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "asri", 
+        "occursIn": "Response", 
+        "longName": "Authorization Signature Request Information"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "aus", 
+        "occursIn": "Request", 
+        "longName": "Authorization Signature"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "auri", 
+        "occursIn": "Request", 
+        "longName": "Authorization Relationship Indicator"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "sqi", 
+        "occursIn": "Request", 
+        "longName": "Semantic Query Indicator"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "rvi", 
+        "occursIn": "Request, Response", 
+        "longName": "Release Version Indicator"
+    }, 
+    {
+        "category": "primitive parameter", 
+        "shortName": "vsi", 
+        "occursIn": "Request, Response", 
+        "longName": "Vendor Information"
+    }, 
+    {
+        "category": "Primitive root element", 
+        "shortName": "rqp", 
+        "occursIn": "Request,\ntransaction", 
+        "longName": "m2m:requestPrimitive"
+    }, 
+    {
+        "category": "Primitive root element", 
+        "shortName": "rsp", 
+        "occursIn": "Response,\naggregatedResponse,\ntransaction", 
+        "longName": "m2m:responsePrimitive"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "acpi", 
+        "occursIn": "All except accessControlPolicy, contentInstance", 
+        "longName": "accessControlPolicyIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aa", 
+        "occursIn": "accessControlPolicy, AE, container, contentInstance, group, locationPolicy, mgmtObj, node, remoteCSE, schedule, semanticDescriptor", 
+        "longName": "announcedAttribute"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "at", 
+        "occursIn": "accessControlPolicy, AE, container, contentInstance, group, locationPolicy, mgmtObj, node, remoteCSE, schedule, semanticDescriptor", 
+        "longName": "announceTo"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ct", 
+        "occursIn": "All", 
+        "longName": "creationTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "et", 
+        "occursIn": "All except contentInstance, CSEBase", 
+        "longName": "expirationTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lbl", 
+        "occursIn": "All (optional)", 
+        "longName": "labels"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lt", 
+        "occursIn": "All", 
+        "longName": "lastModifiedTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lnk", 
+        "occursIn": "All", 
+        "longName": "link"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "pi", 
+        "occursIn": "All", 
+        "longName": "parentID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ri", 
+        "occursIn": "All", 
+        "longName": "resourceID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ty", 
+        "occursIn": "All", 
+        "longName": "resourceType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "st", 
+        "occursIn": "container, contentInstance, delivery, request", 
+        "longName": "stateTag"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rn", 
+        "occursIn": "All", 
+        "longName": "resourceName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "pv", 
+        "occursIn": "accessControlPolicy", 
+        "longName": "privileges"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "pvs", 
+        "occursIn": "accessControlPolicy", 
+        "longName": "selfPrivileges"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "adri", 
+        "occursIn": "accessControlPolicy", 
+        "longName": "authorizationDecisionResourceIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "apri", 
+        "occursIn": "accessControlPolicy", 
+        "longName": "authorizationPolicyResourceIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "airi", 
+        "occursIn": "accessControlPolicy", 
+        "longName": "authorizationInformationResourceIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "api", 
+        "occursIn": "AE", 
+        "longName": "App-ID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aei", 
+        "occursIn": "AE", 
+        "longName": "AE-ID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ail", 
+        "occursIn": "AEContactListPerCSE", 
+        "longName": "AE-IDList"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "apn", 
+        "occursIn": "AE", 
+        "longName": "appName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "poa", 
+        "occursIn": "AE, CSEBase, remoteCSE", 
+        "longName": "pointOfAccess"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "or", 
+        "occursIn": "AE, container, contentInstance, semanticDescriptor. flexContainer, timeSeries", 
+        "longName": "ontologyRef"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nl", 
+        "occursIn": "AE, CSEBase, remoteCSE, flexContainer", 
+        "longName": "nodeLink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "csz", 
+        "occursIn": "AE", 
+        "longName": "contentSerialization"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "regs", 
+        "occursIn": "AE", 
+        "longName": "registrationStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "trps", 
+        "occursIn": "AE", 
+        "longName": "trackRegistrationPoints"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "scp", 
+        "occursIn": "AE", 
+        "longName": "sessionCapabilities"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ape", 
+        "occursIn": "AE, remoteCSE", 
+        "longName": "activityPatternElements"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tren", 
+        "occursIn": "AE, remoteCSE", 
+        "longName": "triggerEnable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cr", 
+        "occursIn": "container, contentInstance, eventConfig, group, pollingChannel, statsCollect, statsConfig, subscription, semanticDescriptor, notificationTargetPolicy, flexContainer, timeSeries, crossResourceSubscription, backgroundDataTransfer", 
+        "longName": "creator"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mni", 
+        "occursIn": "container, timeSeries", 
+        "longName": "maxNrOfInstances"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mbs", 
+        "occursIn": "container, timeSeries", 
+        "longName": "maxByteSize"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mia", 
+        "occursIn": "container, timeSeries", 
+        "longName": "maxInstanceAge"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cni", 
+        "occursIn": "container, timeSeries", 
+        "longName": "currentNrOfInstances"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cbs", 
+        "occursIn": "container", 
+        "longName": "currentByteSize"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "li", 
+        "occursIn": "container", 
+        "longName": "locationID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "disr", 
+        "occursIn": "container", 
+        "longName": "disableRetrieval"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cnf", 
+        "occursIn": "contentInstance, timeSeries", 
+        "longName": "contentInfo"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cs", 
+        "occursIn": "contentInstance, timeSeriesInstance", 
+        "longName": "contentSize"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "conr", 
+        "occursIn": "contentInstance", 
+        "longName": "contentRef"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cnd", 
+        "occursIn": "flexContainer", 
+        "longName": "containerDefinition"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "pc", 
+        "occursIn": "request", 
+        "longName": "primitiveContent"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "con", 
+        "occursIn": "contentInstance, timeSeriesInstance", 
+        "longName": "content"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cst", 
+        "occursIn": "CSEBase, remoteCSE", 
+        "longName": "cseType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "csi", 
+        "occursIn": "CSEBase, remoteCSE, service SubscribedNode, AEContactListPerCSE", 
+        "longName": "CSE-ID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "srt", 
+        "occursIn": "CSEBase", 
+        "longName": "supportedResourceType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ncp", 
+        "occursIn": "CSEBase", 
+        "longName": "notificationCongestionPolicy"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sr", 
+        "occursIn": "delivery", 
+        "longName": "source"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tg", 
+        "occursIn": "delivery, request", 
+        "longName": "target"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ls", 
+        "occursIn": "delivery", 
+        "longName": "lifespan"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ec", 
+        "occursIn": "delivery", 
+        "longName": "eventCat"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dmd", 
+        "occursIn": "delivery", 
+        "longName": "deliveryMetaData"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "arq", 
+        "occursIn": "delivery", 
+        "longName": "aggregatedRequest"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "evi", 
+        "occursIn": "eventConfig, statsCollect", 
+        "longName": "eventID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "evt", 
+        "occursIn": "eventConfig", 
+        "longName": "eventType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "evs", 
+        "occursIn": "eventConfig", 
+        "longName": "evenStart"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "eve", 
+        "occursIn": "eventConfig", 
+        "longName": "eventEnd"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "opt", 
+        "occursIn": "eventConfig", 
+        "longName": "operationType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ds", 
+        "occursIn": "eventConfig", 
+        "longName": "dataSize"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "erts", 
+        "occursIn": "eventConfig", 
+        "longName": "eventResourceTypes"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "eris", 
+        "occursIn": "eventConfig", 
+        "longName": "eventResourceIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exs", 
+        "occursIn": "execInstance", 
+        "longName": "execStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exr", 
+        "occursIn": "execInstance", 
+        "longName": "execResult"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exd", 
+        "occursIn": "execInstance", 
+        "longName": "execDisable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ext", 
+        "occursIn": "execInstance, mgmtCmd", 
+        "longName": "execTarget"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exm", 
+        "occursIn": "execInstance, mgmtCmd", 
+        "longName": "execMode"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exf", 
+        "occursIn": "execInstance, mgmtCmd", 
+        "longName": "execFrequency"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exy", 
+        "occursIn": "execInstance, mgmtCmd", 
+        "longName": "execDelay"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exn", 
+        "occursIn": "execInstance, mgmtCmd", 
+        "longName": "execNumber"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exra", 
+        "occursIn": "execInstance, mgmtCmd", 
+        "longName": "execReqArgs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exe", 
+        "occursIn": "mgmtCmd", 
+        "longName": "execEnable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mt", 
+        "occursIn": "group", 
+        "longName": "memberType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "spty", 
+        "occursIn": "group", 
+        "longName": "specializationType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cnm", 
+        "occursIn": "group", 
+        "longName": "currentNrOfMembers"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mnm", 
+        "occursIn": "group", 
+        "longName": "maxNrOfMembers"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mid", 
+        "occursIn": "group, backgroundDataTransfer", 
+        "longName": "memberIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "macp", 
+        "occursIn": "group", 
+        "longName": "membersAccessControlPolicyIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mtv", 
+        "occursIn": "group", 
+        "longName": "memberTypeValidated"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "csy", 
+        "occursIn": "group", 
+        "longName": "consistencyStrategy"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ssi", 
+        "occursIn": "group", 
+        "longName": "semanticSupportIndicator"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nar", 
+        "occursIn": "group", 
+        "longName": "notifyAggregation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gn", 
+        "occursIn": "group, subscription", 
+        "longName": "groupName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "los", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationSource"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lou", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationUpdatePeriod"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lot", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationTargetID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lor", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationServer"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "loi", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationContainerID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lon", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationContainerName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lost", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aid", 
+        "occursIn": "locationPolicy", 
+        "longName": "authID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rlkl", 
+        "occursIn": "locationPolicy", 
+        "longName": "retrieveLastKnownLocation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "luec", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationUpdateEventCriteria"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lit", 
+        "occursIn": "locationPolicy", 
+        "longName": "locationInformationType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gta", 
+        "occursIn": "locationPolicy", 
+        "longName": "geographicalTargetArea"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gec", 
+        "occursIn": "locationPolicy", 
+        "longName": "geofenceEventCriteria"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dc", 
+        "occursIn": "mgmtCmd, mgmtObj, all management resources from firmware, ontology", 
+        "longName": "description"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cmt", 
+        "occursIn": "mgmtCmd", 
+        "longName": "cmdType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mgd", 
+        "occursIn": "mgmtObj, all management resources from firmware", 
+        "longName": "mgmtDefinition"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "obis", 
+        "occursIn": "mgmtObj", 
+        "longName": "objectIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "obps", 
+        "occursIn": "mgmtObj", 
+        "longName": "objectPaths"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mgs", 
+        "occursIn": "mgmtObj", 
+        "longName": "mgmtSchema"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ni", 
+        "occursIn": "node", 
+        "longName": "nodeID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "hcl", 
+        "occursIn": "node", 
+        "longName": "hostedCSELink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mgca", 
+        "occursIn": "node", 
+        "longName": "mgmtClientAddress"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "hael", 
+        "occursIn": "node", 
+        "longName": "hostedAELinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "hsl", 
+        "occursIn": "node", 
+        "longName": "hostedServiceLinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nid", 
+        "occursIn": "node", 
+        "longName": "networkID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rms", 
+        "occursIn": "node", 
+        "longName": "roamingStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cb", 
+        "occursIn": "remoteCSE", 
+        "longName": "CSEBase"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mei", 
+        "occursIn": "remoteCSE, AE, locationPolicy, triggerRequest", 
+        "longName": "M2M-Ext-ID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tri", 
+        "occursIn": "remoteCSE, triggerRequest", 
+        "longName": "Trigger-Recipient-ID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rr", 
+        "occursIn": "remoteCSE", 
+        "longName": "requestReachability"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "trn", 
+        "occursIn": "remoteCSE", 
+        "longName": "triggerReferenceNumber"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dcse", 
+        "occursIn": "remoteCSE", 
+        "longName": "descendantCSEs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mtcc", 
+        "occursIn": "remoteCSE", 
+        "longName": "multicastCapability"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "org", 
+        "occursIn": "request", 
+        "longName": "originator"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mi", 
+        "occursIn": "request", 
+        "longName": "metaInformation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rs", 
+        "occursIn": "request", 
+        "longName": "requestStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ors", 
+        "occursIn": "request", 
+        "longName": "operationResult"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "op", 
+        "occursIn": "request", 
+        "longName": "operation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rid", 
+        "occursIn": "request", 
+        "longName": "requestID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "se", 
+        "occursIn": "schedule", 
+        "longName": "scheduleElement"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nco", 
+        "occursIn": "schedule", 
+        "longName": "networkCoordinated"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "di", 
+        "occursIn": "serviceSubscribedNode", 
+        "longName": "deviceIdentifier"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rlk", 
+        "occursIn": "serviceSubscribedNode", 
+        "longName": "ruleLinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nrq", 
+        "occursIn": "serviceSubscribedNode", 
+        "longName": "niddRequired"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sci", 
+        "occursIn": "statsCollect", 
+        "longName": "statsCollectID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cei", 
+        "occursIn": "statsCollect", 
+        "longName": "collectingEntityID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cdi", 
+        "occursIn": "statsCollect", 
+        "longName": "collectedEntityID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ss", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "devStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "srs", 
+        "occursIn": "statsCollect", 
+        "longName": "statsRuleStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sm", 
+        "occursIn": "statsCollect", 
+        "longName": "statModel"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cp", 
+        "occursIn": "statsCollect", 
+        "longName": "collectPeriod"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "enc", 
+        "occursIn": "subscription", 
+        "longName": "eventNotificationCriteria"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "exc", 
+        "occursIn": "subscription, crossResourceSubscription", 
+        "longName": "expirationCounter"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nu", 
+        "occursIn": "subscription, crossResourceSubscription", 
+        "longName": "notificationURI"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gpi", 
+        "occursIn": "subscription", 
+        "longName": "groupID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nfu", 
+        "occursIn": "subscription", 
+        "longName": "notificationForwardingURI"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "bn", 
+        "occursIn": "subscription", 
+        "longName": "batchNotify"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rl", 
+        "occursIn": "subscription", 
+        "longName": "rateLimit"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "psn", 
+        "occursIn": "subscription", 
+        "longName": "preSubscriptionNotify"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "pn", 
+        "occursIn": "subscription", 
+        "longName": "pendingNotification"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nsp", 
+        "occursIn": "subscription", 
+        "longName": "notificationStoragePriority"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ln", 
+        "occursIn": "subscription", 
+        "longName": "latestNotify"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nct", 
+        "occursIn": "subscription", 
+        "longName": "notificationContentType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nec", 
+        "occursIn": "subscription, crossResourceSubscription", 
+        "longName": "notificationEventCat"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "su", 
+        "occursIn": "subscription, crossResourceSubscription", 
+        "longName": "subscriberURI"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "vr", 
+        "occursIn": "firmware, software, token", 
+        "longName": "version"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "url", 
+        "occursIn": "firmware, software", 
+        "longName": "URL"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ud", 
+        "occursIn": "firmware", 
+        "longName": "update"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "uds", 
+        "occursIn": "firmware", 
+        "longName": "updateStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "in", 
+        "occursIn": "software", 
+        "longName": "install"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "un", 
+        "occursIn": "software", 
+        "longName": "uninstall"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ins", 
+        "occursIn": "software", 
+        "longName": "installStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "act", 
+        "occursIn": "software", 
+        "longName": "activate"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dea", 
+        "occursIn": "software", 
+        "longName": "deactivate"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "acts", 
+        "occursIn": "software, areaNwkInfo", 
+        "longName": "activeStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mma", 
+        "occursIn": "memory", 
+        "longName": "memAvailable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mmt", 
+        "occursIn": "memory", 
+        "longName": "memTotal"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ant", 
+        "occursIn": "areaNwkInfo", 
+        "longName": "areaNwkType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ldv", 
+        "occursIn": "areaNwkInfo", 
+        "longName": "listOfDevices"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dvd", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "devId"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dvt", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "devType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "awi", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "areaNwkId"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sli", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "sleepInterval"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sld", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "sleepDuration"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lnh", 
+        "occursIn": "areaNwkDeviceInfo", 
+        "longName": "listOfNeighbors"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "btl", 
+        "occursIn": "battery", 
+        "longName": "batteryLevel"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "bts", 
+        "occursIn": "battery", 
+        "longName": "batteryStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dlb", 
+        "occursIn": "deviceInfo", 
+        "longName": "deviceLabel"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "man", 
+        "occursIn": "deviceInfo", 
+        "longName": "manufacturer"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mod", 
+        "occursIn": "deviceInfo", 
+        "longName": "model"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dty", 
+        "occursIn": "deviceInfo", 
+        "longName": "deviceType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "fwv", 
+        "occursIn": "deviceInfo", 
+        "longName": "fwVersion"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "swv", 
+        "occursIn": "deviceInfo", 
+        "longName": "swVersion"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "hwv", 
+        "occursIn": "deviceInfo", 
+        "longName": "hwVersion"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mfdl", 
+        "occursIn": "deviceInfo", 
+        "longName": "manufacturerDetailsLink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mfd", 
+        "occursIn": "deviceInfo", 
+        "longName": "manufacturingDate"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "smod", 
+        "occursIn": "deviceInfo", 
+        "longName": "subModel"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dvnm", 
+        "occursIn": "deviceInfo", 
+        "longName": "deviceName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "osv", 
+        "occursIn": "deviceInfo", 
+        "longName": "osVersion"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cnty", 
+        "occursIn": "deviceInfo", 
+        "longName": "country"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "loc", 
+        "occursIn": "deviceInfo", 
+        "longName": "location"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "syst", 
+        "occursIn": "deviceInfo", 
+        "longName": "systemTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "spur", 
+        "occursIn": "deviceInfo", 
+        "longName": "supportURL"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "purl", 
+        "occursIn": "deviceInfo", 
+        "longName": "presentationURL"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ptl", 
+        "occursIn": "deviceInfo", 
+        "longName": "protocol"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "can", 
+        "occursIn": "deviceCapability", 
+        "longName": "capabilityName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "att", 
+        "occursIn": "deviceCapability", 
+        "longName": "attached"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cas", 
+        "occursIn": "deviceCapability", 
+        "longName": "capabilityActionStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ena", 
+        "occursIn": "deviceCapability, allJoynSvcObject", 
+        "longName": "enable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dis", 
+        "occursIn": "deviceCapability", 
+        "longName": "disable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cus", 
+        "occursIn": "deviceCapability", 
+        "longName": "currentState"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rbo", 
+        "occursIn": "reboot", 
+        "longName": "reboot"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "far", 
+        "occursIn": "reboot", 
+        "longName": "factoryReset"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lgt", 
+        "occursIn": "eventLog", 
+        "longName": "logTypeId"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lgd", 
+        "occursIn": "eventLog", 
+        "longName": "logData"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lgst", 
+        "occursIn": "eventLog", 
+        "longName": "logStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lga", 
+        "occursIn": "eventLog", 
+        "longName": "logStart"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lgo", 
+        "occursIn": "eventLog", 
+        "longName": "logStop"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "fwn", 
+        "occursIn": "firmware", 
+        "longName": "firmwareName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "swn", 
+        "occursIn": "software", 
+        "longName": "softwareName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cpn", 
+        "occursIn": "cmdhPolicy", 
+        "longName": "cmdhPolicyName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cmlk", 
+        "occursIn": "cmdhPolicy, activeCmdhPolicy, cmdhDefaults, cmdhNetworkAccessRules, cmdhNwAccessRule", 
+        "longName": "mgmtLink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "acmlk", 
+        "occursIn": "activeCmdhPolicy", 
+        "longName": "activeCmdhPolicyLink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "od", 
+        "occursIn": "cmdhDefEcValue, cmdhLimits", 
+        "longName": "order"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dev", 
+        "occursIn": "cmdhDefEcValue", 
+        "longName": "defEcValue"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ror", 
+        "occursIn": "cmdhDefEcValue, cmdhLimits", 
+        "longName": "requestOrigin"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rct", 
+        "occursIn": "cmdhDefEcValue, cmdhLimits", 
+        "longName": "requestContext"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rctn", 
+        "occursIn": "cmdhDefEcValue, cmdhLimits", 
+        "longName": "requestContextNotification"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rch", 
+        "occursIn": "cmdhDefEcValue, cmdhLimits", 
+        "longName": "requestCharacteristics"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aecs", 
+        "occursIn": "cmdhNetworkAccessRules", 
+        "longName": "applicableEventCategories"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aec", 
+        "occursIn": "cmdhEcDefParamValues, cmdhBuffer", 
+        "longName": "applicableEventCategory"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dqet", 
+        "occursIn": "cmdhEcDefParamValues", 
+        "longName": "defaultRequestExpTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dset", 
+        "occursIn": "cmdhEcDefParamValues", 
+        "longName": "defaultResultExpTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "doet", 
+        "occursIn": "cmdhEcDefParamValues", 
+        "longName": "defaultOpExecTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "drp", 
+        "occursIn": "cmdhEcDefParamValues", 
+        "longName": "defaultRespPersistence"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dda", 
+        "occursIn": "cmdhEcDefParamValues", 
+        "longName": "defaultDelAggregation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lec", 
+        "occursIn": "cmdhLimits", 
+        "longName": "limitsEventCategory"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lqet", 
+        "occursIn": "cmdhLimits", 
+        "longName": "limitsRequestExpTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lset", 
+        "occursIn": "cmdhLimits", 
+        "longName": "limitsResultExpTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "loet", 
+        "occursIn": "cmdhLimits", 
+        "longName": "limitsOpExecTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lrp", 
+        "occursIn": "cmdhLimits", 
+        "longName": "limitsRespPersistence"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "lda", 
+        "occursIn": "cmdhLimits", 
+        "longName": "limitsDelAggregation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ttn", 
+        "occursIn": "cmdhNwAccessRule", 
+        "longName": "targetNetwork"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mrv", 
+        "occursIn": "cmdhNwAccessRule", 
+        "longName": "minReqVolume"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "swt", 
+        "occursIn": "cmdhNwAccessRule", 
+        "longName": "spreadingWaitTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "bop", 
+        "occursIn": "cmdhNwAccessRule", 
+        "longName": "backOffParameters"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ohc", 
+        "occursIn": "cmdhNwAccessRule", 
+        "longName": "otherConditions"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mbfs", 
+        "occursIn": "cmdhBuffer", 
+        "longName": "maxBufferSize"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sgp", 
+        "occursIn": "cmdhBuffer", 
+        "longName": "storagePriority"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "apci", 
+        "occursIn": "serviceSubscribedAppRule", 
+        "longName": "applicableCredIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aai", 
+        "occursIn": "serviceSubscribedAppRule", 
+        "longName": "allowedApp-IDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "aae", 
+        "occursIn": "serviceSubscribedAppRule", 
+        "longName": "allowedAEs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ari", 
+        "occursIn": "serviceSubscribedAppRule", 
+        "longName": "allowedRole-IDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ntu", 
+        "occursIn": "notificationTargetMgmtPolicyRef", 
+        "longName": "notificationTargetURI"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "npi", 
+        "occursIn": "notificationTargetMgmtPolicyRef", 
+        "longName": "notificationPolicyID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "acn", 
+        "occursIn": "notificationTargetPolicy", 
+        "longName": "action"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "plbl", 
+        "occursIn": "notificationTargetPolicy", 
+        "longName": "policyLabel"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rrs", 
+        "occursIn": "notificationTargetPolicy", 
+        "longName": "rulesRelationship"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "cr", 
+        "occursIn": "notificationTargetPolicy", 
+        "longName": "creator"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dr", 
+        "occursIn": "policyDeletionRules", 
+        "longName": "deletionRules"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "drr", 
+        "occursIn": "policyDeletionRules", 
+        "longName": "deletionRulesRelation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "daci", 
+        "occursIn": "All resources having an accessControlPolicyID attribute", 
+        "longName": "dynamicAuthorizationConsultationIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dae", 
+        "occursIn": "dynamicAuthorizationConsultation", 
+        "longName": "dynamicAuthorizationEnabled"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dap", 
+        "occursIn": "dynamicAuthorizationConsultation", 
+        "longName": "dynamicAuthorizationPoA"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dal", 
+        "occursIn": "dynamicAuthorizationConsultation", 
+        "longName": "dynamicAuthorizationLifetime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dcrp", 
+        "occursIn": "semanticDescriptor", 
+        "longName": "descriptorRepresentation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "soe", 
+        "occursIn": "semanticDescriptor", 
+        "longName": "semanticOpExec"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dsp", 
+        "occursIn": "semanticDescriptor", 
+        "longName": "descriptor"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rels", 
+        "occursIn": "semanticDescriptor", 
+        "longName": "relatedSemantics"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "svd", 
+        "occursIn": "semanticDescriptor", 
+        "longName": "semanticValidated"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "vlde", 
+        "occursIn": "semanticDescriptor", 
+        "longName": "validationEnable"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "pei", 
+        "occursIn": "timeSeries", 
+        "longName": "periodicInterval"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mdd", 
+        "occursIn": "timeSeries", 
+        "longName": "missingDataDetect"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mdn", 
+        "occursIn": "timeSeries", 
+        "longName": "missingDataMaxNr"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mdlt", 
+        "occursIn": "timeSeries", 
+        "longName": "missingDataList"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mdc", 
+        "occursIn": "timeSeries", 
+        "longName": "missingDataCurrentNr"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mdt", 
+        "occursIn": "timeSeries", 
+        "longName": "missingDataDetectTimer"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dgt", 
+        "occursIn": "timeSeriesInstance", 
+        "longName": "dataGenerationTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "snr", 
+        "occursIn": "timeSeriesInstance", 
+        "longName": "sequenceNr"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rlid", 
+        "occursIn": "role", 
+        "longName": "roleID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rlnm", 
+        "occursIn": "role", 
+        "longName": "roleName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rltl", 
+        "occursIn": "role", 
+        "longName": "tokenLink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkid", 
+        "occursIn": "token", 
+        "longName": "tokenID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkob", 
+        "occursIn": "token", 
+        "longName": "tokenObject"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkis", 
+        "occursIn": "token, role", 
+        "longName": "issuer"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkhd", 
+        "occursIn": "token, role", 
+        "longName": "holder"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tknb", 
+        "occursIn": "token, role", 
+        "longName": "notBefore"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkna", 
+        "occursIn": "token, role", 
+        "longName": "notAfter"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tknm", 
+        "occursIn": "token", 
+        "longName": "tokenName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkau", 
+        "occursIn": "token", 
+        "longName": "audience"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkps", 
+        "occursIn": "token", 
+        "longName": "permissions"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkex", 
+        "occursIn": "token", 
+        "longName": "extension"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "esi", 
+        "occursIn": "CSEBase, remoteCSE, AE", 
+        "longName": "e2eSecInfo"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "srv", 
+        "occursIn": "CSEBase, remoteCSE, AE", 
+        "longName": "supportedReleaseVersions"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gisn", 
+        "occursIn": "genericInterworkingService", 
+        "longName": "serviceName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gion", 
+        "occursIn": "genericInterworkingOperationInstance", 
+        "longName": "operationName"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "giip", 
+        "occursIn": "genericInterworkingService, genericInterworkingOperationInstance", 
+        "longName": "inputDataPointLinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "giop", 
+        "occursIn": "genericInterworkingService, genericInterworkingOperationInstance", 
+        "longName": "outputDataPointLinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "giil", 
+        "occursIn": "genericInterworkingOperationInstance", 
+        "longName": "inputLinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "giol", 
+        "occursIn": "genericInterworkingOperationInstance", 
+        "longName": "outputLinks"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gios", 
+        "occursIn": "genericInterworkingOperationInstance", 
+        "longName": "operationState"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dir", 
+        "occursIn": "allJoynApp", 
+        "longName": "direction"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ajop", 
+        "occursIn": "allJoynSvcObject", 
+        "longName": "objectPath"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ajir", 
+        "occursIn": "allJoynInterface", 
+        "longName": "interfaceIntrospectXmlRef"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "inp", 
+        "occursIn": "allJoynMethodCall", 
+        "longName": "input"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "clst", 
+        "occursIn": "allJoynMethodCall", 
+        "longName": "callStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "out", 
+        "occursIn": "allJoynMethodCall", 
+        "longName": "output"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "crv", 
+        "occursIn": "allJoynProperty", 
+        "longName": "currentValue"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rqv", 
+        "occursIn": "allJoynProperty", 
+        "longName": "requestedValue"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dec", 
+        "occursIn": "authorizationDecision", 
+        "longName": "decision"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sus", 
+        "occursIn": "authorizationDecision, authorizationPolicy, authorizationInformation", 
+        "longName": "status"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "to", 
+        "occursIn": "authorizationDecision, authorizationPolicy", 
+        "longName": "to"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "fr", 
+        "occursIn": "authorizationDecision, authorizationInformation", 
+        "longName": "from"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rrt", 
+        "occursIn": "authorizationDecision", 
+        "longName": "requestedResourceType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "op", 
+        "occursIn": "authorizationDecision", 
+        "longName": "operation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "fu", 
+        "occursIn": "authorizationDecision", 
+        "longName": "filterUsage"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rids", 
+        "occursIn": "authorizationDecision, authorizationInformation", 
+        "longName": "roleIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tids", 
+        "occursIn": "authorizationDecision, authorizationInformation", 
+        "longName": "tokenIDs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tkns", 
+        "occursIn": "authorizationDecision", 
+        "longName": "tokens"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rtm", 
+        "occursIn": "authorizationDecision", 
+        "longName": "requestTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "olo", 
+        "occursIn": "authorizationDecision", 
+        "longName": "originatorLocation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "oip", 
+        "occursIn": "authorizationDecision", 
+        "longName": "originatorIP"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ps", 
+        "occursIn": "authorizationPolicy", 
+        "longName": "policies"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ca", 
+        "occursIn": "authorizationPolicy", 
+        "longName": "combiningAlgorithm"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ontf", 
+        "occursIn": "ontology", 
+        "longName": "ontologyFormat"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ontc", 
+        "occursIn": "ontology", 
+        "longName": "ontologyContent"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mbft", 
+        "occursIn": "semanticMashupJobProfile", 
+        "longName": "memberFilter"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "miid", 
+        "occursIn": "semanticMashupJobProfile", 
+        "longName": "smiID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "iptd", 
+        "occursIn": "semanticMashupJobProfile", 
+        "longName": "inputDescriptor"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "uptd", 
+        "occursIn": "semanticMashupJobProfile", 
+        "longName": "outputDescriptor"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "fucd", 
+        "occursIn": "semanticMashupJobProfile", 
+        "longName": "functionDescriptor"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mjid", 
+        "occursIn": "semanticMashupInstance", 
+        "longName": "smjpID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "jpin", 
+        "occursIn": "semanticMashupInstance, semanticMashupResult", 
+        "longName": "smjpInputParameter"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mst", 
+        "occursIn": "semanticMashupInstance", 
+        "longName": "memberStoreType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "msm", 
+        "occursIn": "semanticMashupInstance", 
+        "longName": "mashupMember"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rgt", 
+        "occursIn": "semanticMashupInstance", 
+        "longName": "resultGenType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "prg", 
+        "occursIn": "semanticMashupInstance", 
+        "longName": "periodForResultGen"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mrf", 
+        "occursIn": "semanticMashupResult", 
+        "longName": "mashupResultFormat"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mrt", 
+        "occursIn": "semanticMashupResult", 
+        "longName": "mashupResult"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "nic", 
+        "occursIn": "AEContactList", 
+        "longName": "numberImpactedCSEs"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "egid", 
+        "occursIn": "LocalMulticastGroup, remoteCSE", 
+        "longName": "externalGroupID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mad", 
+        "occursIn": "LocalMulticastGroup", 
+        "longName": "multicastAddress"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mgft", 
+        "occursIn": "LocalMulticastGroup", 
+        "longName": "multicastGroupFanoutTarget"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "mli", 
+        "occursIn": "LocalMulticastGroup", 
+        "longName": "memberList"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rstt", 
+        "occursIn": "LocalMulticastGroup", 
+        "longName": "responseTarget"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rstw", 
+        "occursIn": "LocalMulticastGroup", 
+        "longName": "responseTimeWindow"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tmgi", 
+        "occursIn": "LocalMulticastGroup", 
+        "longName": "TMGI"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "soi", 
+        "occursIn": "multimediaSession", 
+        "longName": "sessionOriginatorID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "asd", 
+        "occursIn": "multimediaSession", 
+        "longName": "acceptedSessionDescriptions"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "osd", 
+        "occursIn": "multimediaSession", 
+        "longName": "offeredSessionDescriptions"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "sst", 
+        "occursIn": "multimediaSession", 
+        "longName": "sessionState"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tpe", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerPurpose"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tst", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerStatus"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tvt", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerValidityTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tiae", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerInfoAE-ID"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tia", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerInfoAddress"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tio ", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerInfoOperation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tirt ", 
+        "occursIn": "triggerRequest", 
+        "longName": "targetedResourceType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "trf", 
+        "occursIn": "triggerRequest", 
+        "longName": "triggerReference"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rrat", 
+        "occursIn": "crossResourceSubscription", 
+        "longName": "regularResourcesAsTarget"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "srat", 
+        "occursIn": "crossResourceSubscription", 
+        "longName": "subscriptionResourcesAsTarget"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "twt", 
+        "occursIn": "crossResourceSubscription", 
+        "longName": "timeWindowType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tws", 
+        "occursIn": "crossResourceSubscription", 
+        "longName": "timeWindowSize"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "encs", 
+        "occursIn": "crossResourceSubscription", 
+        "longName": "eventNotificationCriteriaSet"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "acrs", 
+        "occursIn": "subscription", 
+        "longName": "associatedCrossResourceSub"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "vpn", 
+        "occursIn": "backgroundDataTransfer", 
+        "longName": "volumePerNode"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "non", 
+        "occursIn": "backgroundDataTransfer", 
+        "longName": "numberOfNodes"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "dtw", 
+        "occursIn": "backgroundDataTransfer", 
+        "longName": "desiredTimeWindow"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tsg", 
+        "occursIn": "backgroundDataTransfer", 
+        "longName": "transferSelectionGuidance"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "ggi", 
+        "occursIn": "backgroundDataTransfer", 
+        "longName": "geographicInformation"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "gli", 
+        "occursIn": "backgroundDataTransfer", 
+        "longName": "groupLink"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tltm", 
+        "occursIn": "transactionMgmt, transaction", 
+        "longName": "transactionLockTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "text", 
+        "occursIn": "transactionMgmt, transaction", 
+        "longName": "transactionExecuteTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tct", 
+        "occursIn": "transactionMgmt, transaction", 
+        "longName": "transactionCommitTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tept", 
+        "occursIn": "transactionMgmt", 
+        "longName": "transactionExpirationTime"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tmd", 
+        "occursIn": "transactionMgmt", 
+        "longName": "transactionMode"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tltp", 
+        "occursIn": "transactionMgmt, transaction", 
+        "longName": "transactionLockType"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tctl", 
+        "occursIn": "transactionMgmt, transaction", 
+        "longName": "transactionControl"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "trst", 
+        "occursIn": "transactionMgmt, transaction", 
+        "longName": "transactionState"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tmr", 
+        "occursIn": "transactionMgmt", 
+        "longName": "transactionMaxRetries"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tmh", 
+        "occursIn": "transactionMgmt", 
+        "longName": "transactionMgmtHandling"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rqps", 
+        "occursIn": "transactionMgmt", 
+        "longName": "requestPrimitives"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "rsps", 
+        "occursIn": "transactionMgmt", 
+        "longName": "responsePrimitives"
+    }, 
+    {
+        "category": "Resource attribute", 
+        "shortName": "tid", 
+        "occursIn": "transaction", 
+        "longName": "transactionID"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "acp", 
+        "occursIn": "(n/a)", 
+        "longName": "accessControlPolicy"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "acpa", 
+        "occursIn": "(n/a)", 
+        "longName": "accessControlPolicyAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ae", 
+        "occursIn": "(n/a)", 
+        "longName": "AE"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "aea", 
+        "occursIn": "(n/a)", 
+        "longName": "AEAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cnt", 
+        "occursIn": "(n/a)", 
+        "longName": "container"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cnta", 
+        "occursIn": "(n/a)", 
+        "longName": "containerAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cin", 
+        "occursIn": "(n/a)", 
+        "longName": "contentInstance"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cina", 
+        "occursIn": "(n/a)", 
+        "longName": "contentInstanceAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cb", 
+        "occursIn": "(n/a)", 
+        "longName": "CSEBase"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "dlv", 
+        "occursIn": "(n/a)", 
+        "longName": "delivery"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "evcg", 
+        "occursIn": "(n/a)", 
+        "longName": "eventConfig"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "exin", 
+        "occursIn": "(n/a)", 
+        "longName": "execInstance"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "grp", 
+        "occursIn": "(n/a)", 
+        "longName": "group"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "grpa", 
+        "occursIn": "(n/a)", 
+        "longName": "groupAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "lcp", 
+        "occursIn": "(n/a)", 
+        "longName": "locationPolicy"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "lcpa", 
+        "occursIn": "(n/a)", 
+        "longName": "locationPolicyAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "mssp", 
+        "occursIn": "(n/a)", 
+        "longName": "m2mServiceSubscriptionProfile"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "mgc", 
+        "occursIn": "(n/a)", 
+        "longName": "mgmtCmd"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "nod", 
+        "occursIn": "(n/a)", 
+        "longName": "node"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "noda", 
+        "occursIn": "(n/a)", 
+        "longName": "nodeAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "pch", 
+        "occursIn": "(n/a)", 
+        "longName": "pollingChannel"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "csr", 
+        "occursIn": "(n/a)", 
+        "longName": "remoteCSE"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "csra", 
+        "occursIn": "(n/a)", 
+        "longName": "remoteCSEAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "req", 
+        "occursIn": "(n/a)", 
+        "longName": "request"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "sch", 
+        "occursIn": "(n/a)", 
+        "longName": "schedule"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "scha", 
+        "occursIn": "(n/a)", 
+        "longName": "scheduleAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "asar", 
+        "occursIn": "(n/a)", 
+        "longName": "serviceSubscribedAppRule"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "svsn", 
+        "occursIn": "(n/a)", 
+        "longName": "serviceSubscribedNode"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "stcl", 
+        "occursIn": "(n/a)", 
+        "longName": "statsCollect"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "stcg", 
+        "occursIn": "(n/a)", 
+        "longName": "statsConfig"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "sub", 
+        "occursIn": "(n/a)", 
+        "longName": "subscription"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "fwr", 
+        "occursIn": "(n/a)", 
+        "longName": "firmware"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "fwra", 
+        "occursIn": "(n/a)", 
+        "longName": "firmwareAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "swr", 
+        "occursIn": "(n/a)", 
+        "longName": "software"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "swra", 
+        "occursIn": "(n/a)", 
+        "longName": "softwareAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "mem", 
+        "occursIn": "(n/a)", 
+        "longName": "memory"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "mema", 
+        "occursIn": "(n/a)", 
+        "longName": "memoryAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ani", 
+        "occursIn": "(n/a)", 
+        "longName": "areaNwkInfo"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ania", 
+        "occursIn": "(n/a)", 
+        "longName": "areaNwkInfoAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "andi", 
+        "occursIn": "(n/a)", 
+        "longName": "areaNwkDeviceInfo"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "andia", 
+        "occursIn": "(n/a)", 
+        "longName": "areaNwkDeviceInfoAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "bat", 
+        "occursIn": "(n/a)", 
+        "longName": "battery"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "bata", 
+        "occursIn": "(n/a)", 
+        "longName": "batteryAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "dvi", 
+        "occursIn": "(n/a)", 
+        "longName": "deviceInfo"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "dvia", 
+        "occursIn": "(n/a)", 
+        "longName": "deviceInfoAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "dvc", 
+        "occursIn": "(n/a)", 
+        "longName": "deviceCapability"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "dvca", 
+        "occursIn": "(n/a)", 
+        "longName": "deviceCapabilityAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "rbo ", 
+        "occursIn": "(n/a)", 
+        "longName": "reboot"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "rboa", 
+        "occursIn": "(n/a)", 
+        "longName": "rebootAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "evl", 
+        "occursIn": "(n/a)", 
+        "longName": "eventLog"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "evla", 
+        "occursIn": "(n/a)", 
+        "longName": "eventLogAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmp", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhPolicy"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "acmp", 
+        "occursIn": "(n/a)", 
+        "longName": "activeCmdhPolicy"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmdf", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhDefaults"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmdv", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhDefEcValue"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmpv", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhEcDefParamValues"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cml", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhLimits"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmnr", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhNetworkAccessRules"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmwr", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhNwAccessRule"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "cmbf", 
+        "occursIn": "(n/a)", 
+        "longName": "cmdhBuffer"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ntpr", 
+        "occursIn": "(n/a)", 
+        "longName": "notificationTargetMgmtPolicyRef"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ntp", 
+        "occursIn": "(n/a)", 
+        "longName": "notificationTargetPolicy"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "pdr", 
+        "occursIn": "(n/a)", 
+        "longName": "policyDeletionRules"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "dac", 
+        "occursIn": "(n/a)", 
+        "longName": "dynamicAuthorizationConsultation"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smd", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticDescriptor"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smda", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticDescriptorAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ts", 
+        "occursIn": "(n/a)", 
+        "longName": "timeSeries"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "tsa", 
+        "occursIn": "(n/a)", 
+        "longName": "timeSeriesAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "tsi", 
+        "occursIn": "(n/a)", 
+        "longName": "timeSeriesInstance"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "tsia", 
+        "occursIn": "(n/a)", 
+        "longName": "timeSeriesInstanceAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "rol", 
+        "occursIn": "(n/a)", 
+        "longName": "role"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "tk", 
+        "occursIn": "(n/a)", 
+        "longName": "token"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "gis", 
+        "occursIn": "(n/a)", 
+        "longName": "genericInterworkingService"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "gisa", 
+        "occursIn": "(n/a)", 
+        "longName": "genericInterworkingServiceAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "gio", 
+        "occursIn": "(n/a)", 
+        "longName": "genericInterworkingOperationInstance"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "gioa", 
+        "occursIn": "(n/a)", 
+        "longName": "genericInterworkingOperationInstanceAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajsw", 
+        "occursIn": "(n/a)", 
+        "longName": "svcObjWrapper"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajswa", 
+        "occursIn": "(n/a)", 
+        "longName": "svcObjWrapperAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajfw", 
+        "occursIn": "(n/a)", 
+        "longName": "svcFwWrapper"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajfwa", 
+        "occursIn": "(n/a)", 
+        "longName": "svcFwWrapperAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajap", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynApp"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajapa", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynAppAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajso", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynSvcObject"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajsoa", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynSvcObjectAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajif", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynInterface"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajifa", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynInterfaceAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajmd", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynMethod"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajmda", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynMethodAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajmc", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynMethodCall"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajmca", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynMethodCallAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajpr", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynProperty"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ajpra", 
+        "occursIn": "(n/a)", 
+        "longName": "allJoynPropertyAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "auds", 
+        "occursIn": "(n/a)", 
+        "longName": "authorizationDecision"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "aupy", 
+        "occursIn": "(n/a)", 
+        "longName": "authorizationPolicy"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "auif", 
+        "occursIn": "(n/a)", 
+        "longName": "authorizationInformation"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ontr", 
+        "occursIn": "(n/a)", 
+        "longName": "ontologyRepository"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ontra", 
+        "occursIn": "(n/a)", 
+        "longName": "ontologyRepositoryAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "ont", 
+        "occursIn": "(n/a)", 
+        "longName": "ontology"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "onta", 
+        "occursIn": "(n/a)", 
+        "longName": "ontologyAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smjp", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticMashupJobProfile"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smjpa", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticMashupJobProfileAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smi", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticMashupInstance"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smia", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticMashupInstanceAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smr", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticMashupResult"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "smra", 
+        "occursIn": "(n/a)", 
+        "longName": "semanticMashupResultAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "alst", 
+        "occursIn": "(n/a)", 
+        "longName": "AEContactList"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "alpc", 
+        "occursIn": "(n/a)", 
+        "longName": "AEContactListPerCSE"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "lmg", 
+        "occursIn": "(n/a)", 
+        "longName": "localMulticastGroup"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "mms", 
+        "occursIn": "(n/a)", 
+        "longName": "multimediaSession"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "mmsa", 
+        "occursIn": "(n/a)", 
+        "longName": "multimediaSessionAnnc"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "tgr", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerRequest"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "crs", 
+        "occursIn": "(n/a)", 
+        "longName": "crossResourceSubscription"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "bdt", 
+        "occursIn": "(n/a)", 
+        "longName": "backgroundDataTransfer"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "trac", 
+        "occursIn": "(n/a)", 
+        "longName": "transaction"
+    }, 
+    {
+        "category": "Resource and specialization type", 
+        "shortName": "tram", 
+        "occursIn": "(n/a)", 
+        "longName": "transactionMgmt"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "crb", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "createdBefore"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cra", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "createdAfter"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ms", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "modifiedSince"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "us", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "unmodifiedSince"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sts", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "stateTagSmaller"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "stb", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "stateTagBigger"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "exb", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "expireBefore"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "exa", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "expireAfter"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "lbl", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "labels"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "lbq", 
+        "occursIn": "filterCriteria", 
+        "longName": "labelsQuery"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ty", 
+        "occursIn": "filterCriteria, accessControlObjectDetails", 
+        "longName": "resourceType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sza", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "sizeAbove"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "szb", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "sizeBelow"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cty", 
+        "occursIn": "filterCriteria", 
+        "longName": "contentType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "lim", 
+        "occursIn": "filterCriteria", 
+        "longName": "limit"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "atr", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "attribute"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cfs", 
+        "occursIn": "filterCriteria", 
+        "longName": "contentFilterSyntax"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cfq", 
+        "occursIn": "filterCriteria", 
+        "longName": "contentFilterQuery"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "lvl", 
+        "occursIn": "filterCriteria", 
+        "longName": "level"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ofst", 
+        "occursIn": "filterCriteria", 
+        "longName": "offset"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "net", 
+        "occursIn": "eventNotificationCriteria, notificationEvent", 
+        "longName": "notificationEventType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "om", 
+        "occursIn": "eventNotificationCriteria, notificationEvent", 
+        "longName": "operationMonitor"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rep", 
+        "occursIn": "notificationEvent", 
+        "longName": "representation"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "fu", 
+        "occursIn": "filterCriteria", 
+        "longName": "filterUsage"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ect", 
+        "occursIn": "eventCat", 
+        "longName": "eventCatType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ecn", 
+        "occursIn": "eventCat", 
+        "longName": "eventCatNo"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "num", 
+        "occursIn": "batchNotify", 
+        "longName": "number"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dur", 
+        "occursIn": "batchNotify", 
+        "longName": "duration"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sgn", 
+        "occursIn": "aggregatedNotification, \nRequest Primitive Content", 
+        "longName": "notification"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "nev", 
+        "occursIn": "notification", 
+        "longName": "notificationEvent"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "vrq", 
+        "occursIn": "notification", 
+        "longName": "verificationRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sud", 
+        "occursIn": "notification", 
+        "longName": "subscriptionDeletion"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sur", 
+        "occursIn": "notification", 
+        "longName": "subscriptionReference"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cr", 
+        "occursIn": "notification", 
+        "longName": "creator"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "nfu", 
+        "occursIn": "notification", 
+        "longName": "notificationForwardingURI"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ntt", 
+        "occursIn": "notification", 
+        "longName": "notificationTarget"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "trr", 
+        "occursIn": "notification", 
+        "longName": "targetRemovalRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tra", 
+        "occursIn": "notification", 
+        "longName": "targetRemovalAllowance"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "idr", 
+        "occursIn": "notification", 
+        "longName": "IPEDiscoveryRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "aerp", 
+        "occursIn": "notification", 
+        "longName": "AERegistrationPointChange"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "aerid", 
+        "occursIn": "notification", 
+        "longName": "AEReferenceIDChange"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tid1", 
+        "occursIn": "notification", 
+        "longName": "trackingID1"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tid2", 
+        "occursIn": "notification", 
+        "longName": "trackingID2"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "fc", 
+        "occursIn": "IPEDiscoveryRequest", 
+        "longName": "filterCriteria"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "op", 
+        "occursIn": "operationMonitor, dynAuthDasRequest", 
+        "longName": "operation"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ops", 
+        "occursIn": "operationMonitor", 
+        "longName": "operations"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "or", 
+        "occursIn": "operationMonitor, IPEDiscoveryRequest, dynAuthDasRequest", 
+        "longName": "originator"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acn", 
+        "occursIn": "actionStatus", 
+        "longName": "action"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sus", 
+        "occursIn": "actionStatus", 
+        "longName": "status"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ch", 
+        "occursIn": "All except execInstance, announced resource, management resources from firmware", 
+        "longName": "childResource"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acr", 
+        "occursIn": "privileges, selfPrivileges", 
+        "longName": "accessControlRule"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acor", 
+        "occursIn": "accessControlRule", 
+        "longName": "accessControlOriginators"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acop", 
+        "occursIn": "accessControlRule", 
+        "longName": "accessControlOperations"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acco", 
+        "occursIn": "accessControlRule", 
+        "longName": "accessControlContexts"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "actw", 
+        "occursIn": "accessControlContexts", 
+        "longName": "accessControWindow"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acip", 
+        "occursIn": "accessControlContexts", 
+        "longName": "accessControlIpAddresses"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ipv4", 
+        "occursIn": "accessControlIpAddress", 
+        "longName": "ipv4Addresses"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ipv6", 
+        "occursIn": "accessControlIpAddress", 
+        "longName": "ipv6Addresses"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "aclr", 
+        "occursIn": "accessControlContexts", 
+        "longName": "accessControlLocationRegion"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "accc", 
+        "occursIn": "accessControlLocationRegion", 
+        "longName": "countryCode"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "accr", 
+        "occursIn": "accessControlLocationRegion", 
+        "longName": "circRegion"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "nm", 
+        "occursIn": "attribute, anyArgType, mgmtLinkRef, childResourceRef, contentRef", 
+        "longName": "name"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "spty", 
+        "occursIn": "childResourceRef, accessControlObjectDetails", 
+        "longName": "specializationType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cnd", 
+        "occursIn": "specializationType", 
+        "longName": "containerDefinition"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "mgd", 
+        "occursIn": "specializationType", 
+        "longName": "mgmtDefinition"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "val", 
+        "occursIn": "attribute", 
+        "longName": "value"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "typ", 
+        "occursIn": "anyArgType, childResourceRef, mgmtLinkRef", 
+        "longName": "type"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "mnn", 
+        "occursIn": "rateLimit", 
+        "longName": "maxNrOfNotify"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tww", 
+        "occursIn": "rateLimit", 
+        "longName": "timeWindow"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sce", 
+        "occursIn": "scheduleElement", 
+        "longName": "scheduleEntry"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "agn", 
+        "occursIn": "Request Primitive Content", 
+        "longName": "aggregatedNotification"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "atrl", 
+        "occursIn": "Request Primitive Content", 
+        "longName": "attributeList"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "seci", 
+        "occursIn": "Request Primitive Content, Response Primitive Content", 
+        "longName": "securityInfo"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "agr", 
+        "occursIn": "Response Primitive Content", 
+        "longName": "aggregatedResponse"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rce", 
+        "occursIn": "Response Primitive Content", 
+        "longName": "resource"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "uril", 
+        "occursIn": "Response Primitive Content", 
+        "longName": "URIList"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dbg", 
+        "occursIn": "Response Primitive Content", 
+        "longName": "debugInfo"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "qres", 
+        "occursIn": "Response Primitive Content", 
+        "longName": "queryResult"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "any", 
+        "occursIn": "resetArgsType, rebootArgsType, uploadArgsType, downloadArgsType, softwareInstallArgsType softwareUpdateArgsType, softwareUninstallArgsType, execReqArgsListType", 
+        "longName": "anyArg"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ftyp", 
+        "occursIn": "downloadArgsType", 
+        "longName": "fileType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "uri", 
+        "occursIn": "resourceWrapper, dynAuthTokenReqInfo", 
+        "longName": "URI"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "url", 
+        "occursIn": "downloadArgsType", 
+        "longName": "URL"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "unm", 
+        "occursIn": "uploadArgsType, downloadArgsType, softwareUpdateArgsType, softwareUninstallArgsType", 
+        "longName": "username"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "pwd", 
+        "occursIn": "uploadArgsType, downloadArgsType, softwareUpdateArgsType, softwareUninstallArgsType", 
+        "longName": "password"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "fsi", 
+        "occursIn": "downloadArgsType", 
+        "longName": "filesize"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tgf", 
+        "occursIn": "downloadArgsType", 
+        "longName": "targetFile"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dss", 
+        "occursIn": "downloadArgsType", 
+        "longName": "delaySeconds"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "surl", 
+        "occursIn": "downloadArgsType", 
+        "longName": "successURL"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "stt", 
+        "occursIn": "downloadArgsType", 
+        "longName": "startTime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "cpt", 
+        "occursIn": "downloadArgsType", 
+        "longName": "completeTime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "uuid", 
+        "occursIn": "softwareInstallArgsType softwareUpdateArgsType, softwareUninstallArgsType", 
+        "longName": "UUID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "eer", 
+        "occursIn": "softwareInstallArgsType softwareUpdateArgsType, softwareUninstallArgsType", 
+        "longName": "executionEnvRef"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "vr", 
+        "occursIn": "softwareUninstallArgsType, tokenClaimSet", 
+        "longName": "version"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rst", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "reset"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rbo", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "reboot"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "uld", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "upload"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dld", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "download"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "swin", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "softwareInstall"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "swup", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "softwareUpdate"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "swun", 
+        "occursIn": "execReqArgsListType", 
+        "longName": "softwareUninstall"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tcop", 
+        "occursIn": "deliveryMetaData", 
+        "longName": "tracingOption"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tcin", 
+        "occursIn": "deliveryMetaData", 
+        "longName": "tracingInfo"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rtv", 
+        "occursIn": "responseTypeInfo", 
+        "longName": "responseTypeValue"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "nu", 
+        "occursIn": "responseTypeInfo", 
+        "longName": "notificationURI"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tod", 
+        "occursIn": "deletionContexts", 
+        "longName": "timeOfDay"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "lr", 
+        "occursIn": "deletionContexts", 
+        "longName": "locationRegions"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "urir", 
+        "occursIn": "contentRef", 
+        "longName": "URIReference"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "smf", 
+        "occursIn": "filterCriteria", 
+        "longName": "semanticsFilter"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "mdl", 
+        "occursIn": "timeSeries", 
+        "longName": "missingDataList"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "md", 
+        "occursIn": "eventNotificationCriteria", 
+        "longName": "missingData"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkid", 
+        "occursIn": "tokenClaimSet, dynAuthLocalTokenIdAssignments", 
+        "longName": "tokenID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkhd", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "holder"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkis", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "issuer"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tknb", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "notBefore"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkna", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "notAfter"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tknm", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "tokenName"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkau", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "audience"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkps", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "permissions"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkex", 
+        "occursIn": "tokenClaimSet", 
+        "longName": "extension"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "pm", 
+        "occursIn": "tokenPermissions", 
+        "longName": "permission"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ris", 
+        "occursIn": "tokenPermission", 
+        "longName": "resourceIDs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "pv", 
+        "occursIn": "tokenPermission, setOfPermissions", 
+        "longName": "privileges"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rids", 
+        "occursIn": "tokenPermission", 
+        "longName": "roleIDs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ltia", 
+        "occursIn": "dynAuthLocalTokenIdAssignments", 
+        "longName": "localTokenIdAssignment"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "lti", 
+        "occursIn": "dynAuthLocalTokenIdAssignment", 
+        "longName": "localTokenID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dasi", 
+        "occursIn": "dynAuthTokenReqInfo", 
+        "longName": "dasInfo"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "daq", 
+        "occursIn": "dynAuthTokenReqInfo", 
+        "longName": "dasRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sdr", 
+        "occursIn": "dynAuthTokenReqInfo", 
+        "longName": "securedDasRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "fo", 
+        "occursIn": "filterCriteria, eventNotificationCriteria", 
+        "longName": "filterOperation"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "trt", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "targetedResourceType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "oip", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "originatorIP"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ip4", 
+        "occursIn": "dynAuthDasRequest, ipAddress", 
+        "longName": "ipv4Address"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ip6", 
+        "occursIn": "dynAuthDasRequest, ipAddress", 
+        "longName": "ipv6Address"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "olo", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "originatorLocation"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "orid", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "originatorRoleIDs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rts", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "requestTimestamp"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "trid", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "targetedResourceID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ppl", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "proposedPrivilegesLifetime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rfa", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "roleIDsFromACPs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tids", 
+        "occursIn": "dynAuthDasRequest", 
+        "longName": "tokenIDs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dai", 
+        "occursIn": "dynAuthDasResponse", 
+        "longName": "dynamicACPInfo"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "gp", 
+        "occursIn": "dynAuthDasResponse", 
+        "longName": "grantedPrivileges"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "pl", 
+        "occursIn": "dynAuthDasResponse", 
+        "longName": "privilegesLifetime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "tkns", 
+        "occursIn": "dynAuthDasResponse", 
+        "longName": "tokens"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sit", 
+        "occursIn": "securityInfo", 
+        "longName": "securityInfoType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dreq", 
+        "occursIn": "securityInfo", 
+        "longName": "dasRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dres", 
+        "occursIn": "securityInfo", 
+        "longName": "dasResponse"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "darq", 
+        "occursIn": "securityInfo", 
+        "longName": "dynAuthRelMapRequest"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dars", 
+        "occursIn": "securityInfo", 
+        "longName": "dynAuthRelMapResponse"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ero", 
+        "occursIn": "securityInfo", 
+        "longName": "esprimRandObject"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "epo", 
+        "occursIn": "securityInfo", 
+        "longName": "esprimObject"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "eckm", 
+        "occursIn": "securityInfo", 
+        "longName": "escertkeMessage"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rrf", 
+        "occursIn": "listOfChildResourceRef", 
+        "longName": "resourceRef"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rrl", 
+        "occursIn": "Response Primitive Content", 
+        "longName": "resourceRefList"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esri", 
+        "occursIn": "originatorESPrimRandObject, receiverESPrimRandObject", 
+        "longName": "esprimRandID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esrv", 
+        "occursIn": "originatorESPrimRandObject, receiverESPrimRandObject", 
+        "longName": "esprimRandValue"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esrx", 
+        "occursIn": "originatorESPrimRandObject, receiverESPrimRandObject", 
+        "longName": "esprimRandExpiry"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esk", 
+        "occursIn": "originatorESPrimRandObject", 
+        "longName": "esprimKeyGenAlgID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esks", 
+        "occursIn": "receiverESPrimRandObject", 
+        "longName": "esprimKeyGenAlgIDs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "espa", 
+        "occursIn": "originatorESPrimRandObject, receiverESPrimRandObject", 
+        "longName": "esprimProtocolAndAlgIDs"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esf", 
+        "occursIn": "e2eSecInfo", 
+        "longName": "supportede2ESecFeatures"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "escert", 
+        "occursIn": "e2eSecInfo", 
+        "longName": "certificates"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "esro", 
+        "occursIn": "e2eSecInfo", 
+        "longName": "sharedReceiverESPrimRandObject"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "nwa", 
+        "occursIn": "backOffParameters", 
+        "longName": "networkAction"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "ibt", 
+        "occursIn": "backOffParameters", 
+        "longName": "initialBackoffTime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "abt", 
+        "occursIn": "backOffParameters", 
+        "longName": "additionalBackoffTime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "mbt", 
+        "occursIn": "backOffParameters", 
+        "longName": "maximumBackoffTime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "rbt", 
+        "occursIn": "backOffParameters", 
+        "longName": "optionalRandomBackoffTime"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "bops", 
+        "occursIn": "backOffParameters", 
+        "longName": "backOffParametersSet"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dali", 
+        "occursIn": "listOfDataLinks", 
+        "longName": "dataLink"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "atn", 
+        "occursIn": "dataLink", 
+        "longName": "attributeName"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dcid", 
+        "occursIn": "dataLink", 
+        "longName": "dataContainerID"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acaf", 
+        "occursIn": "accessControlRule", 
+        "longName": "accessControlAuthenticationFlag"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "acod", 
+        "occursIn": "accessControlRule", 
+        "longName": "accessControlObjectDetails"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dle", 
+        "occursIn": "listOfDataLinks", 
+        "longName": "dataLinkEntry"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "chty", 
+        "occursIn": "accessControlObjectDetails, eventNotificationCriteria, filterCriteria", 
+        "longName": "childResourceType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "pty", 
+        "occursIn": "filterCriteria", 
+        "longName": "parentResourceType"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "clbl ", 
+        "occursIn": "filterCriteria", 
+        "longName": "childLabels"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "palb", 
+        "occursIn": "filterCriteria", 
+        "longName": "parentLabels"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "catr", 
+        "occursIn": "filterCriteria", 
+        "longName": "childAttribute"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "patr", 
+        "occursIn": "filterCriteria", 
+        "longName": "parentAttribute"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "arp", 
+        "occursIn": "filterCriteria", 
+        "longName": "applyRelativePath"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sdc", 
+        "occursIn": "sessionDescriptions", 
+        "longName": "sessionDescription"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "apt", 
+        "occursIn": "activityPatternElements", 
+        "longName": "activityPattern"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "sti", 
+        "occursIn": "activityPattern", 
+        "longName": "stationaryIndication"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "dsi", 
+        "occursIn": "activityPattern", 
+        "longName": "dataSizeIndicator"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "encn", 
+        "occursIn": "eventNotificationCriteriaSet", 
+        "longName": "eventNotificationCriteriaEntry"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "muri", 
+        "occursIn": "mashupMembers", 
+        "longName": "memberURI"
+    }, 
+    {
+        "category": "Complex data type member", 
+        "shortName": "mvl", 
+        "occursIn": "mashupMembers", 
+        "longName": "memberValue"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tgp", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerPayload (root element)"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tpe", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerPurpose"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tia", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerInfoAddress"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tio", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerInfoOperation"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tirt", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerInfoResourceType"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tiae", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerInfoAE-ID"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tipa", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerInfoPoA"
+    }, 
+    {
+        "category": "Trigger payload field", 
+        "shortName": "tist", 
+        "occursIn": "(n/a)", 
+        "longName": "triggerInfoSerializationTypes"
+    }
+]
